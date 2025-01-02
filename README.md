@@ -17,6 +17,19 @@ Access: http://localhost:8080/chat
 
 Description: The websocket connection will be created when /chat endpoints hits, if someone hits the message who ever connected to topic or broker all will get message
 
-3.  invoice : it is crud app 
+3.  invoice : it is crud app
+
+4.  Ecommerce Backend,
+Tech: Spring web, JPA, lombok
+
+EcommerceFrontEnd
+Tech: vite, react-bootstrap, react
+
+Description: It will have the products which you can search by categories, by character and ascending to descending.
+
+steps involved:
+npm create vite@latest ecommercebackend
+npm run dev
+npm install bootstrap react-bootstrap
 
 
