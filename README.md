@@ -33,3 +33,24 @@ npm run dev
 npm install bootstrap react-bootstrap
 
 
+5. Process csv data to DB using spring batch
+Tech: Spring web, batch, JPA, hibernate
+
+Link: http://localhost:8080/jobs/importCustomers
+
+
+Working:
+
+	JobLauncher -> Job -> Step -> ItemReader    source (csv)
+	                           -> ItemProcesser
+							   -> ItemWriter    destination (database)
+		|
+		|
+	JobRepository
+		|
+		|
+	Database
+	
+	
+
+
