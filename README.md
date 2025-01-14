@@ -43,7 +43,7 @@ Working:
 
 	JobLauncher -> Job -> Step -> ItemReader    source (csv)
 	                           -> ItemProcesser
-							   -> ItemWriter    destination (database)
+				   -> ItemWriter    destination (database)
 		|
 		|
 	JobRepository
