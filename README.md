@@ -51,6 +51,18 @@ Working:
 		|
 	Database
 	
+6. Lake side hotel demo client and master
+
+Frontend: React
+Backend: Spring boot
+
+
+Login : http://localhost:9192/auth/login  -> you will get the JWT
+
+Frontend : http://localhost:8173
+
+You need to add this in every request
+	
 	
 
 
