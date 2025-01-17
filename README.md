@@ -82,7 +82,17 @@ You need to add this in every request
 # add the client secret and id in application.properties
 
 When you hit the http://localhost:8000 it will go to github and ask to enter username and password and ask for authentication and authorization. Once you allow, it will ask route to Homepage URL.
->>>>>>> 07afc0ec2f8240286fe1cb10a22898d3293fb4a0
-	
 
+7. Lake side hotel demo client and master
+
+Frontend: React
+Backend: Spring boot
+
+
+Login : http://localhost:9192/auth/login  -> you will get the JWT
+
+Frontend : http://localhost:8173
+
+You need to add this in every request
+	
 
